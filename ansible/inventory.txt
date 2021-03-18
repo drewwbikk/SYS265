@@ -1,0 +1,9 @@
+[apache]
+ansible1-andrew
+[webmin]
+ansible2-andrew
+[windows]
+mgmt01-andrew
+wks01-andrew
+[windows:vars]
+ansible_shell_type=powershell

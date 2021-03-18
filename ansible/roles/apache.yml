@@ -1,0 +1,8 @@
+---
+- name: apache SYS265
+  hosts: apache
+  become: true
+  vars:
+    apache_listen_port: 8080
+  roles:
+  - geerlingguy.apache
